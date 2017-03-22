@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.anantjaitha.workoutbuddy.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:id="@+id/set11"
+        android:text="Incline Chest Press Set 1"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        />
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:id="@+id/set12"
+        android:text="Bent Over Rows Set 1"
+        android:layout_below="@id/set11"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        />
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:id="@+id/set21"
+        android:text="Incline Chest Press Set 2"
+        android:layout_below="@id/set12"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        />
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:id="@+id/set22"
+        android:text="Bent Over Rows Set 2"
+        android:layout_below="@id/set21"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        />
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:id="@+id/set31"
+        android:text="Incline Chest Press Set 3"
+        android:layout_below="@id/set22"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        />
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:id="@+id/set32"
+        android:text="Bent Over Rows Set 3"
+        android:layout_below="@id/set31"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        />
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:id="@+id/set41"
+        android:text="Incline Chest Press Set 4"
+        android:layout_below="@id/set32"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        />
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:id="@+id/set42"
+        android:text="Bent Over Rows Set 4"
+        android:layout_below="@id/set41"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        />
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:id="@+id/set51"
+        android:text="Incline Chest Press Set 5"
+        android:layout_below="@id/set42"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        />
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:id="@+id/set52"
+        android:text="Bent Over Rows Set 5"
+        android:layout_below="@id/set51"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        />
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:id="@+id/set61"
+        android:text="Incline Chest Press Set 6"
+        android:layout_below="@id/set52"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        />
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:id="@+id/set62"
+        android:text="Bent Over Rows Set 6"
+        android:layout_below="@id/set61"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        />
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:id="@+id/set71"
+        android:text="Incline Chest Press Set 7"
+        android:layout_below="@id/set62"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        />
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:id="@+id/set72"
+        android:text="Bent Over Rows Set 7"
+        android:layout_below="@id/set71"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        />
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:id="@+id/set81"
+        android:text="Incline Chest Press Set 8"
+        android:layout_below="@id/set72"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        />
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:id="@+id/set82"
+        android:text="Bent Over Rows Set 8"
+        android:layout_below="@id/set81"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        />
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:id="@+id/set91"
+        android:text="Incline Chest Press Set 9"
+        android:layout_below="@id/set82"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        />
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:id="@+id/set92"
+        android:text="Bent Over Rows Set 9"
+        android:layout_below="@id/set91"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        />
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:id="@+id/set101"
+        android:text="Incline Chest Press Set 10"
+        android:layout_below="@id/set92"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        />
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:id="@+id/set102"
+        android:text="Bent Over Rows Set 10"
+        android:layout_below="@id/set101"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        />
+
+</RelativeLayout>
